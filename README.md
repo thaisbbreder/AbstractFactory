@@ -1,10 +1,8 @@
-## Padrão de Projeto: Abstract Factory
-
-### 🧩 Categoria
-Criacional
+## Design Patterns: Abstract Factory
 
 ### 🛠️ Definição
-O padrão **Abstract Factory** é uma evolução do **Factory Method**, adicionando uma camada extra de abstração: uma **fábrica de fábricas**. Em vez de criar um único tipo de objeto, ele cria **famílias de objetos relacionados** por meio de uma **interface comum**, sem expor as implementações concretas.
+- Categoria: Criacional.
+- O padrão **Abstract Factory** é uma evolução do **Factory Method**, adicionando uma camada extra de abstração: uma **fábrica de fábricas**. Em vez de criar um único tipo de objeto, ele cria **famílias de objetos relacionados** por meio de uma **interface comum**, sem expor as implementações concretas.
 
 ### 🎯 Finalidade
 - Fornecer uma interface para criação de famílias de objetos relacionados ou dependentes, sem acoplar o código às classes concretas.
@@ -21,8 +19,6 @@ O padrão **Abstract Factory** é uma evolução do **Factory Method**, adiciona
 - **SRP (Responsabilidade Única)**: separa o código de criação do código de uso.
 - **OCP (Aberto/Fechado)**: novas famílias de produtos podem ser adicionadas sem alterar o código existente.
 - **Programação orientada a interfaces**: foco total em abstrações, promovendo baixo acoplamento e alta flexibilidade.
-
-### 💼 Aplicação no Projeto
 
 ### 📌 Aplicação no Projeto
 
